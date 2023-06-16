@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title> Tesda Webpage </title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="with =device-width, initial-scale =1">
+       
+    <body>
+    <section id="Header"></section>
+<section class="Header"> 
+<video autoplay loop muted plays-inline class="back-video">
+    <source src="3.mp4">
+
+</video>
+
+
+            <nav>
+                <a href="index.html"><img src="img/lg1.png"></a>
+                <div id="navlink">
+                    <nav>
+                    <UL>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="Services.html">SERVICES</a></li>
+                        <li><a href="about.html">ABOUT/INSTRUCTOR</a></li>
+                </UL>
+                </nav>
+            </div>
+            <div id="menuBtn">
+                <img src="img/menu.jpg" id="menu">
+            </div>
+            <script>
+            var menuBtn = document.getElementById("menuBtn") 
+           var navlink = document.getElementById("navlink")  
+           var menu = document.getElementById("menu")   
+
+           navlink.style.right = "-250px";
+
+           menuBtn.onclick = function(){
+            if (navlink.style.right == "-250px"){
+                navlink.style.right = "0";
+
+                menu.src = "img/close.jpg";
+            }
+            else{
+                navlink.style.right = "-250px";
+                menu.src = "img/menu.jpg";
+            }
+           } 
+            </script>
+        </nav>
+   
+<div class="textbox">
+    <h1> AUTOMOTIVE </h1>
+    <P>Perform mechanic work in diagnosing, <br> and repairing the full range of vehicles, equipment and components.</P>
+    <a href="batch.html">CLASS BATCH</a>
+</div>
+</section>
+    </body>
+    </html>

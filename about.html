@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title> Tesda Webpage </title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="with =device-width, initial-scale =1">
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    </head>
+    <body>
+<section class="A-Header"> 
+            <nav>
+                <a href="index.html"><img src="img/lg1.png"></a>
+                <div id="navlink">
+                    <nav>
+                    <UL>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="Services.html">SERVICES</a></li>
+                        <li><a href="batch.html">BATCH</a></li>
+                        <li><a href="about.html">ABOUT/INSTRUCTOR</a></li>
+                </UL>
+                </nav>
+            </div>
+            <div id="menuBtn">
+                <img src="img/menu.jpg" id="menu">
+            </div>
+            <script>
+            var menuBtn = document.getElementById("menuBtn") 
+           var navlink = document.getElementById("navlink")  
+           var menu = document.getElementById("menu")   
+
+           navlink.style.right = "-250px";
+
+           menuBtn.onclick = function(){
+            if (navlink.style.right == "-250px"){
+                navlink.style.right = "0";
+
+                menu.src = "img/close.jpg";
+            }
+            else{
+                navlink.style.right = "-250px";
+                menu.src = "img/menu.jpg";
+            }
+           } 
+            </script>
+        </nav>
+            <h1> ABOUT US </h1>
+    </section> 
+
+     <!-----About Us ------>
+     <section class="About">
+        <div class="About-col">
+        <h1> ABOUT TESDA AUTOMOTIVE </h1>
+        <p>Tesda automotive course is a training in selected automotive shop courses such as engine repair, suspension and steering,
+             automotive electronics. <br> This course is recognized by 
+            DTI (Department of Trade and Industry) and TESDA (Technical Education and Skills Development Authority).
+            <br>The duration of the class varies depending on your chosen program or course. <br>   
+            Tesda automotive course is composed of four (4) levels of training, 
+            which are TESDA NC II, TESDA NC III, TESDA NC IV-A and TESDA NC IV-B.</p>
+            <p><a href="https://web.facebook.com/p/Las-Pi%C3%B1as-City-Manpower-Training-Center-100057683550787/?paipv=0&eav=AfbvlMwGkYBk7QIw854Lcw4rH1y3-wn7RPmbipRPgyF2oCwwhtBY1XEsTXq2REaIEkY&_rdc=1&_rdr"> Visit Us on Facebook !</a></p>
+            <div class="media-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-google"></i></a>
+                 </div>
+            </div>
+        </div>
+        </section>
+        <!-----services------>
+    <section class="about">
+        <div class="About-Box">
+            <div class="About-list">
+                <img src="img/record.jpg">
+                <div class="overlay"></div>
+                <div class="About-name">
+                    <h3> List of TESDA Automotive Servicing Schools</h3>
+                </div>
+            </div>
+            <div class="About-list">
+                <img src="img/a3.jpg">
+                <div class="overlay"></div>
+                <div class="About-name">
+                    <h3> TESDA Automotive Servicing <br> (Engine Repair)  NC II: FREE Training</h3>
+                </div>
+            </div>
+            <div class="About-list">
+                <img src="img/develop.jpg">
+                <div class="overlay"></div>
+                <div class="About-name">
+                    <h3>Develop your skills with TESDA </h3>
+                </div>
+            </div>
+
+        </div>
+</section>
+
+         <!-----Instructor info ------>
+         <section class="INSTRUCTOR">
+            <h1> Instructor Information</h1>
+            <P> Automotive Instructors are responsible for teaching students the basics of car mechanics and maintenance. 
+                 They provide guidance and instruction on the use of tools and equipment, 
+                as well as discuss safety procedures and regulations.</p>
+                <div class="INF-Box">
+                    <div class="INF-list">
+                        <img src="img/instructor.jpg">
+                        <div class="overlay"></div>
+                        <div class="INF-name">
+                            <h3> Instructor Name: Vince </h3>
+                        </div>
+                    </div>
+                </div>
+            </section>  
+    </section>
+     </div>
+    </body>
+    </html>
